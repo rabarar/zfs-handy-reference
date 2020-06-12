@@ -68,6 +68,16 @@ zfs destroy poolname/pict
 zfs destroy poolname/docs@today
 ```
 
+## pool status
+```
+sudo zpool status -v poolname
+```
+
+## data integrity check
+```
+sudo zpool scrub poolname
+```
+
 ### Replication
 ```
 ## start with a snap and then use send and receive
